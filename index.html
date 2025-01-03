@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <main>
+      <h1>I. Maritsa  | Portfolio</h1>
+      <span>Email: <a href="mailto:ioannamar02@gmail.com">ioannamar02@gmail.com</a></span>
+      <span>M: 698 824 3953</span>
+      <span>LinkendIn: <a href="https://www.linkedin.com/in/ioanna-maritsa-77a58533a/" target="_blank">Ioanna Maritsa</a> </span>
+    </main>
+  </header>
+  <main>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>Undergraduate Student at National & Kapodistrian University of Athens</p>
+      <p>Residence: Athens, Greece</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <a href="https://github.com/IoannaMaritsa/eam" target="_blank">
+            <div class="slideshow-container" id="slideshow1">
+              <div class="slide fade">
+                <img src="public/mystudies1.png" alt="Image 1">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/mystudies2.png" alt="Image 2">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/mystudies3.png" alt="Image 3">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/mystudies4.png" alt="Image 4">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/mystudies5.png" alt="Image 5">
+              </div>
+          
+              <a class="prev" onclick="changeSlide(-1, 'slideshow1')">❮</a>
+              <a class="next" onclick="changeSlide(1, 'slideshow1')">❯</a>
+            </div>
+            <h3>Project For the Human-Computer Interaction Class</h3>
+            <p>Our task was to create our own implementation of the "mystudies" website, which would be more user-friendly than the current one.</p>
+            <p>The UI was implemented using the React framework and our database was created using Firebase.</p>
+          </a>
+        </div>
+        <div class="project">
+          <a href="https://github.com/IoannaMaritsa/ted" target="_blank">
+            <div class="slideshow-container" id="slideshow2">
+              <div class="slide fade">
+                <img src="public/careerhive.png" alt="Image 1">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/careerhive2.png" alt="Image 2">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/careerhive3.png" alt="Image 3">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/careerhive4.png" alt="Image 4">
+              </div>
+
+              <div class="slide fade">
+                <img src="public/careerhive5.png" alt="Image 5">
+              </div>
+          
+              <a class="prev" onclick="changeSlide(-1, 'slideshow2')">❮</a>
+              <a class="next" onclick="changeSlide(1, 'slideshow2')">❯</a>
+            </div>
+            <h3>Project For the Internet Application Technologies Class</h3>
+            <p>Our task was to implement a website which would provide services similar to LinkedIn.</p>
+            <p>The UI was implemented using the React framework and our database was created using Supabase.</p>
+          </a>
+        </div>
+        <div class="project">
+          <a href="https://www.youtube.com/watch?v=Sg-qUR5sqvU" target="_blank">
+            <img src="public/video-thumbnail.png" alt="YouTube Video Thumbnail">
+            <h3>YouTube Video Presenting The Human-Computer Interaction Project</h3>
+            <p>Video Posted on the original channel of the National & Kapodistrian University.</p>
+            <p>In this video my team presents our Project which received the higher grade (10/10).</p>
+          </a>
+        </div>
+      </section>
+      <script src="script.js"></script>
+  </main>
+  <footer>
+    <p>© 2025 I.Maritsa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
